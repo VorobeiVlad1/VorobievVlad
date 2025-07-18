@@ -1,0 +1,23 @@
+body {
+  font-family: system-ui;
+  background: #060606;
+  color: white;
+}
+header {
+  //position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: stretch;
+  padding: 10px;
+}
+.second, .first {
+  
+}
+p, a, h1, h2, a:active, a:hover {
+  color: white;
+  text-decoration: none;
+}
